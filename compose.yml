@@ -1,9 +1,11 @@
  services:
    api-students:
      build: ./api-students
+     image: nicolasllerenas/api-students
      ports:
        - 8000:8000
    websimple:
      build: ./websimple
+     image: nicolasllerenas/websimple
      ports:
        - 8080:80
