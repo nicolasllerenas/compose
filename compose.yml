@@ -1,9 +1,9 @@
  services:
- webplantilla:
-   build: ./webplantilla
-   image: nicolasllerenas/webplantilla
-   ports:
-     - 9000:80
+   webplantilla:
+     build: ./webplantilla
+     image: nicolasllerenas/webplantilla
+     ports:
+       - 9000:80
    api-students:
      build: ./api-students
      image: nicolasllerenas/api-students
